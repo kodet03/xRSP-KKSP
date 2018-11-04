@@ -1,26 +1,39 @@
-Key Partners
--
+Problem
+- E-mailova komunikace
+- Absence historii komunikace
+- Absence doslovniho srovnani a verzovani dokumentu
+- Absence informovani o aktualni fazi recenzniho rizeni
 
-Key Activities
--
+Solution
+- Verzovane nahrani souboru
+- Doslovne srovnani souboru (co smazano/co pridano v porovnani s minulou verzi)
+- Komentare k nahranym souborum ( redaktor/oponenty/autor )
+- Notification center (novy komentar/zmena statusu dokumentu jako prideleni oponenta atd)
 
-Key Resources
--
+Key Metrics
+- Overovani unikatnosti dokumentu
+- Statistika autoru
 
 Value Proposition
--
+- Jednoduchy prehled a rizeni nabidnutych clanku
+- Historicky archiv
+- Moznost redakce vice casopisu
 
-Customer Relationships
+Unfair Advantage
 -
 
 Channels
--
+- Trade show
+- Reklama
+- 
 
 Customer Segments
--
+- Vydavatelstvi odbornych casopisu
+- Noviny
 
 Cost Structure
 -
 
 Revenue Streams
--
+- Licenze
+- Autory
