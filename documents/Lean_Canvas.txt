@@ -18,6 +18,7 @@ Value Proposition
 - Jednoduchy prehled a rizeni nabidnutych clanku
 - Historicky archiv
 - Moznost redakce vice casopisu
+- Rychle zpracovani a management
 
 Unfair Advantage
 -
@@ -25,7 +26,7 @@ Unfair Advantage
 Channels
 - Trade show
 - Reklama
-- 
+- Prima komunikace
 
 Customer Segments
 - Vydavatelstvi odbornych casopisu
@@ -35,5 +36,5 @@ Cost Structure
 -
 
 Revenue Streams
-- Licenze
-- Autory
+- Rocni predplatne s supportem + aktualizace software
+- Rocni predplatne bez supportu. Aktualizace aktualni verze zdarma. Nove verze za priplatek
