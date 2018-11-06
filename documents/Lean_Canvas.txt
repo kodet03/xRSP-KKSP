@@ -3,22 +3,27 @@ Problem
 - Absence historii komunikace
 - Absence doslovniho srovnani a verzovani dokumentu
 - Absence informovani o aktualni fazi recenzniho rizeni
+- Absence evidence zainteresovaných osob a jejich rolí - autoři, redaktoři, recenzenti, členové rady, atd.
 
 Solution
 - Verzovane nahrani souboru
 - Doslovne srovnani souboru (co smazano/co pridano v porovnani s minulou verzi)
 - Komentare k nahranym souborum ( redaktor/oponenty/autor )
 - Notification center (novy komentar/zmena statusu dokumentu jako prideleni oponenta atd)
+- Databázové řešení pro všechna potřebná data - uživatelé, dokumenty, změny, komentáře atd.
 
 Key Metrics
 - Overovani unikatnosti dokumentu
 - Statistika autoru
+- Počet vložených dokumentů za určité období
+- Počet aktivních uživatelů v systému a jejich aktivita
 
 Value Proposition
 - Jednoduchy prehled a rizeni nabidnutych clanku
 - Historicky archiv
 - Moznost redakce vice casopisu
 - Rychle zpracovani a management
+- Komplexní softwarové řešení implementovatelné do specifického segmentu trhu - redakce novin, časopisů, apod
 
 Unfair Advantage
 -
