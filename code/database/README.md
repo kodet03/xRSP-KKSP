@@ -1,1 +1,1 @@
-Adresář pro zdrojové kódy databázové vrstvy
+Databázové vrstva v rámci projektu bude implementována v DBMS PostgreSQL ve verzi 9.6. K modelování vývojových diagramů bude použita webová aplikace www.draw.io. Všechny diagramy budou ukládány v adresáři "modeling" jak ve formě zdrojového souboru ve formátu XML, tak i v grafické podobě. Informace, které se týkají analytické části budou umístěny v adresáři "analysis". Samotné zdrojové implementační kódy pro vytvoření databáze, integritních omezení a samotných dotazů budou umístěny v adresáři "implementation".

@@ -1,0 +1,51 @@
+Druh zvoleného databázového konceptu:
+-SQL
+
+Typ zvolené databázového modelu:
+-Relaèní
+
+Zvolený DBMS:
+-PostgeSQL 9.6
+
+Seznam zamýšlených entit dle požadavku zadavatele:
+
+1.) USERS 
+- Uživatelé daného systému s potøebnými atributy pro správu vlastních uživatelských profilù.
+- Pøedpokládají se standardní uživatelské atributy - registraèní jméno, datum narození, pøihlašovací jméno, e-mail, heslo.
+
+2.) ROLES 
+- K uživatelùm pøidružené úrovnì uživatelských rolí dle požadavku zadavatele.
+- V první verzi se pøedpokládá celkem 6 uživatelských rolí - administrátor, èlen rady, šéfredaktor, redaktor, recenzent, autor.
+- Pøedpokládají se standardní atributy ve smyslu názvu role a textového popisu role. Role je pøidìlena uživateli k urèitému datu. Stejným zpùsobem mu mùže být odejmuta (ukonèena).
+- V rámci integritních omezení je tøeba specifikovat, zda je pøípustná existence více rolí pro jednoho uživatele v jeden moment.
+
+3.) EVENTS
+- Události v systému vyvolané jednotlivými uživateli
+- V první verzi se pøedpokládá následující výèet základních událostí - pøihlášení, odhlášení, zmìna uživatelského jména, zmìna hesla.
+- Pøedpokládají se standardní atributy ve smyslu názvu událostí a jejího textového popisu. Událost je evidována s èasovým údajem, kdy nastala.
+
+4.) ARTICLES 
+- Èlánky, které jsou vkládány autorem a spravovány redaktorem, recenzenti vkládají posudky. Zde probíhá veškerá interakce mezi uživateli s právy autor, redaktor a recenzent.
+- Pøedpokládají se nejprve standardní atributy ve smyslu názvu, popisu a textové specifikaci aktuálního statusu, tedy fázi, ve které se nachází. Rovnìž je tøeba evidovat stav, zda je èlánek zamítnut èi pøijat do vydání èasopisu.
+- V rámci relací mezi entitami je tøeba specifikovat, zda je autorský tým evidován pøesnì, tedy s vazbou na jednotlivé autory entity USERS, nebo zda postaèuje vazba pouze na hlavního autora.
+
+5.) DOCUMENTS 
+- Fyzické dokumenty (dle zadání ve formátu PDF nebo doc èi docx), které pøikládá autor èlánku jako jeho hlavní text.
+- 
+
+6.) TASKS - úkoly, které se vážou ke konkrétnímu èlánku - tyto zadává vždy redaktor buï autorovi èi recenzentovi - mají status a èasové rozmezí
+
+7.) COMMENTS - komentáøe jednotlivých uživatelù, které se vážou na konkrétní úkol
+
+8.) RELEASES - jednotlivá vydání èasopisù dle požadavkù zadavatele
+
+9.) TOPICS - témata zamìøení jednotlivých èlánkù a samotných vydání èasopisù
+
+
+
+
+Problematické èásti analýzy - potøebné upøesnìní zadavatele:
+
+1. Je pøípustné èi dokonce žádoucí vícenásobné pøidìlení rolí jednomu uživateli v jeden moment? V pøípadì, že ano, uveïte pøesný výèet možných kombinací.
+2. Je žádoucí, aby v systému byli evidováni všichni autoøi, tedy i spoluautoøi vkládaného èlánku? S tím souvisí otázka, zda je tedy tøeba evidovat v systému relaci pouze mezi hlavním autorem a èlánkem èi relaci mezi všemi autory (kteøí tak budou muset být zaregistrování v systému) a daným èlánkem.
+3. 
